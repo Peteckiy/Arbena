@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lato:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/scrip.js"></script>
+    <title>Промислові накриття </title>
+</head>
+<body>
+    <div class="web-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <img src="./image/Logo.png" alt="Logo">
+                    </div>
+                    <div class="feedback__btn-img">
+                        <a href="#popup" class="popup__btn">&#128386;</a>
+                    </div>
+                    <input type="checkbox" id="menu__toggle">
+                <label for="menu__toggle" class="menu__btn">
+                        <span></span>
+                    </label>
+                    <nav class="header__menu menu__body">
+                        <ul>
+                            <li><a data-goto=".info-compani" href="#" class="menu__link">Про нас</a></li>
+                            <li><a data-goto=".ofer" href="#" class="menu__link">Пропозиції</a></li>
+                            <li><a data-goto=".o-firme__item-galerry" href="#" class="menu__link">Галерея </a></li>
+                            <li><a data-goto=".contact" href="#" class="menu__link">Контакти</a></li>
+                        </ul>
+                            <a href="#popup" class="feedback__btn">Зворотній зв'язок</a>
+                    </nav>
+                    <div class="header__navigation-btn">
+                        <a data-goto=".main__product-contact" href="#" class="navigation__button">
+                            <img src="./image/button-phone.svg"  data-goto=".main__product-contact" alt="#" class="button__phone menu__link">
+                        </a>
+                        <a href="mailto:info@example.com" class="navigation__button">
+                            <img src="./image/button-mail.svg" alt="#" class="button__mail">
+                        </a>
+                        <a href="#popup" class="navigation__button">
+                            <img src="./image/button-contact.svg" alt="#" class="button__contact">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <section class="main__preview preview">
+                    <div class="preview__img">
+                        <img src="./image/main.png" alt="#">
+                    </div>
+                    <div class="wrapper">
+                        <div class="image-slider swiper">
+                            <div class="image-slider__wrapper swiper-wrapper">
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="./image/Group 1.png" alt="картинка">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="./image/Group 2.png" alt="картинка">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="./image/Group 3.png" alt="картинка">
+                                    </div>
+                                </div>
+                                <div class="image-slider__slide swiper-slide">
+                                    <div class="image-slider__image">
+                                        <img src="./image/Group 4.png" alt="картинка">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__info-compani info-compani">
+                    <div class="info-compani__item">
+                        <h2 class="info-compani__title">
+                            Про нас 
+                        </h2>
+                        <div class="info-compani__wrapper">
+                            <div class="info-compani__text">
+                                <b class="info-compani__text-caps">ARBENA</b>
+                                <p>Це сімейна компанія, в основі якої такі цінності як: чесність, щирість і надійність. 
+                                Для нас важливі як клієнти так і наші співробітники. 
+                                Ми створюємо сімейну атмосферу, яка сприяє налагодженню стосунків, і цінуємо довіру наших клієнтів.
+                                </p>
+                            </div>
+                            <div class="info-compani__image">
+                                <img src="./image/background-o-nas .jpg" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-compani__item-sovist">
+                        <h2 class="info-compani__sovist-title">
+                            Що нас відрізняє<br> від інших?
+                        </h2>
+                        <div class="info-compani__colum colum">
+                            <div class="info-compani__sovist-list-colum">
+                                <div class="info-compani__sovist-list-paragraph sovist-paragraph">
+                                    <h3 class="sovist-paragraph__title">
+                                        <span class="paragraph-color">01.</span> Найвища якість
+                                    </h3>
+                                        <p class="sovist-paragraph__text">Продукція, яку ми пропонуємо нашим клієнтам, має найвищу якість. 
+                                            Ми ніколи не продамо вам продукт, у якості якого сумніваємося.
+                                        </p>
+                                </div>
+                                <div class="info-compani__sovist-list-paragraph sovist-paragraph">
+                                    <h3 class="sovist-paragraph__title">
+                                        <span class="paragraph-color">02.</span>Чесність
+                                    </h3>
+                                        <p class="sovist-paragraph__text">  
+                                            Це одна з фундаментальних цінностей, 
+                                            на основі якої ми будуємо співпрацю як всередині компанії, між співробітниками, 
+                                            так і у відносинах з клієнтом.
+                                        </p>
+                                </div>
+                                <div class="info-compani__sovist-list-paragraph sovist-paragraph">
+                                    <h3 class="sovist-paragraph__title">
+                                        <span class="paragraph-color">03.</span> Надійність
+                                    </h3>
+                                        <p class="sovist-paragraph__text">
+                                            Домовленості з клієнтом - наш пріоритет. 
+                                            Ми не обіцяємо чудес, але коли щось обіцяємо, то дотримуємося свого слова.
+                                        </p>
+                                </div>
+                                <div class="info-compani__sovist-list-paragraph sovist-paragraph">
+                                    <h3 class="sovist-paragraph__title">
+                                        <span class="paragraph-color">04.</span> Точність
+                                    </h3>
+                                        <p class="sovist-paragraph__text">
+                                            У нашій професії дуже важлива точність та професіоналізм. 
+                                            Як на етапі замовлення, так і під час монтажу. Наші
+                                            працівники, які є майстрами своєї справи - наша гордість!
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-compani__item-o-firme">
+                        <h3 class="o-firme__title">
+                            Що пропонує наша фірма 
+                        </h3>
+                        <!--<h4 class="o-firme__text">
+                           Ми прислухаємось до потреб наших клієнтів.<br>
+                           Ми готуємо індивідуальну пропозицію відповідно до їхніх вимог.<br>
+                           Наші рішення допомагають їм розправити крила.<br>
+                           І це нас радує!
+                        </h4>-->
+                        <div class="o-firme__wrapper">
+                            <div class="o-firme__item">
+                                <div class="o-firme__colum">
+                                    <h3 class="o-firme__colum-title">
+                                        Тунельні ангари для сільського господарства
+                                    </h3>
+                                    <p class="o-firme__colum-text">
+                                        Просторий склад для тюків, місткий гараж для машин, швидкісний склад для зерна, дешевий сарай для худоби, економний курник, манеж для коней - це лише деякі із застосувань наших ангарів  у сільськогосподарській галузі.
+                                    </p>
+                                </div>
+                                <div class="o-firme__colum">
+                                    <h3 class="o-firme__colum-title">
+                                        Обладнання для тваринницьких приміщень
+                                    </h3>
+                                    <p class="o-firme__colum-text">
+                                        Як єдиний дистриб’ютор у Польщі всесвітньо відомих і цінних огорож від Jourdain, зручних матраців для корів від Promat та вентиляторів для корів від CMP Technologies, ми можемо запропонувати Вам комплексне обладнання для тваринницьких приміщень, а також будівництво ангарів під ключ. 
+                                    </p>
+                                    
+                                </div>
+                                <div class="o-firme__colum">
+                                    <h3 class="o-firme__colum-title">
+                                        Промислові цехи
+                                    </h3>
+                                    <p class="o-firme__colum-text">
+                                        Для потреб промислового сектору ми пропонуємо швидкозбудовані склади для переробних, комунальних і будівельних кампаній. Монтуємо ангари як на бетонних блоках чи контейнерах, так і безпосередньо на землю
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="o-firme__item o-firme__item-galerry">
+                                <div class="o-firme__colum-image">
+                                    <img src="./image/baloty_3.jpg" alt="#">
+                                    <img src="./image/szczyty pazik.jpg" alt="#">
+                                </div>
+                                <div class="o-firme__colum-image">
+                                    <img src="./image/obora_1.jpg" alt="#">
+                                    <img src="./image/obora_2.jpg" alt="#">
+                                </div>
+                                <div class="o-firme__colum-image">
+                                    <img src="./image/przemysl (10).jpg" alt="#">
+                                    <img src="./image/recykling (5).jpg" alt="#">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__ofer ofer">
+                    <h3 class="ofer__title">
+                        Наші продукти 
+                    </h3>
+                    <p class="ofer__text">
+                        Пропозиція ARBENA <span class="production-info__text-log">®</span> включає тунельні ангари наступних видів:
+                    </p>
+                    <div class="ofer__item">
+                        <div class="ofer__colum">
+                            <div class="ofer__product prduct-uno">
+                                <img src="./image/profil.jpeg" alt="#" class="product-image ">
+                                <p class="product__text">Профіль OV-90</p>
+                            </div>
+                            <div class="ofer__product ofer__product-1">
+                                <img src="./image/piktogram hala 8m.png.svg" alt="#" class="product-image">
+                            </div>
+                            <div class="ofer__product">
+                                <img src="./image/piktogram hala 9m.png.svg" alt="#" class="product-image">
+                            </div>
+                            <div class="ofer__product">
+                                <img src="./image/piktogram hala 10m OV90.png.svg" alt="#" class="product-image">
+                            </div>
+                        </div>
+                        <div class="ofer__colum">
+                            <div class="ofer__product prduct-uno">
+                                <img src="./image/profil.jpeg" alt="#" class="product-image ">
+                                <p class="product__text">Профіль OV-130</p>
+                            </div>
+                            <div class="ofer__product ofer__product-2">
+                                <img src="./image/piktogram hala 10m OV130.png.svg" alt="#" class="product-image">
+                            </div>
+                            <div class="ofer__product">
+                                <img src="./image/piktogram hala 12m.png.svg" alt="#" class="product-image">
+                            </div>
+                        </div>
+                        <div class="ofer__colum">
+                            <div id="product-uno-last" class="ofer__product prduct-uno">
+                                <img src="./image/naves.jpeg" alt="#" class="product-image ">
+                                <p class="product__text">Профіль OV-130</p>
+                            </div>
+                            <div class="ofer__product product-last product-last-3">
+                                <img src="./image/piktogram hala 15.8m.png.svg" alt="#" class="product-image">
+                            </div>
+                            <div class="ofer__product product-last">
+                                <img src="./image/piktogram hala 25m.png.svg" alt="#" class="product-image">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main__production-info production-info">
+                    <p class="production-info__text">
+                        SHELTERALL<span class="production-info__text-log">®</span> використовує технології та надійність групи RICHEL, яка є найбільшим виробником теплиць у Європі<span class="production-info__text-log">®</span>. 
+                        Концептуальний проєкт конструкції та її виготовлення схвалено SOCOTEC. 
+                        Несуча рама виготовлена ​​з оцинкованої сталі (за методом Sendzimir NF EN 10346) і відповідає європейським вимогам NF EN 13031-1 та польським і європейським стандартам будівництва (Єврокоди). 
+                        Покривна мембрана виготовлена ​​з ПВХ, є вітронепроникною та стійкою до УФ-випромінювання. 
+                        Компанія пропонує вогнестійкі сертифіковані мембрани та покриття, стійкі до зовнішнього вогню в класі Broof (t1). 
+                        Арочні передпокої від ARBENA<span class="production-info__text-log">®</span> – це економічне та довговічне рішення, яке є цікавою альтернативою традиційному будівництву. 
+                        Тунелі SHELTERALL<span class="production-info__text-log">®</span> є модульними, не потребують фундаменту та можуть бути демонтовані.
+                    </p>
+                    <p class="production-info__slog">
+                        Промислові ангари від ARBENA<span class="production-info__text-log">®</span> - розраховані на довгі роки
+                    </p>
+                </section>
+                <section class="main__product-icon product-icon">
+                    <div class="product-icon__title">
+                        Наші переваги
+                    </div>
+                    <div class="product-icon__wrapper">
+                        <div class="product-icon__item">
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-1.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Відповідність стандартам
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-2.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Швидкий монтаж
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-3.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Сталь 420мм.
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-4.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Монтаж під ключ
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-5.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Можливість збільшення довжини
+                                </p>
+                            </div>
+                        </div>
+                        <div class="product-icon__item">
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-6.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Вогнестійкість <br>NRO -Broof(t1)
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-7.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Стійкість до погодних умов
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-8.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Низькі ціни
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-9.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Модульність
+                                </p>
+                            </div>
+                            <div class="product-icon__colum">
+                                <img src="./image/icon-10.svg" alt="#" class="product-icon__img">
+                                <p class="product-icon__text">
+                                    Великі розміри (XXL)
+                                </p>
+                            </div>
+                        </div>
+                        <p class="product-icon__wrapper-text">
+                            Ми прислухаємось до потреб наших клієнтів.<br> Наші рішення допомагають їм розвивати свою справу. Наша ціль - це успіх наших клієнтів.
+                        </p>
+                    </div>
+                </section>
+                <section class="main__product-contact contact">
+                    <div class="contact__title">
+                        <h3>Контакти</h3>
+                    </div>
+                    <div class="contact__wrapper">
+                        <div class="contact__item">
+                            <ul>
+                                <li class="contact__list">
+                                    <img src="./image/geo-local.svg" alt="#" class="contact__img">
+                                    <p class="contact__text">
+                                        ul. Kościuszki 169, 40-524 Katowice
+                                    </p>
+                                </li>
+                                <li class="contact__list">
+                                    <img src="./image/phone.svg" alt="#" class="contact__img">
+                                    <a href="tel:+380686700394" class="contact__text">
+                                        +380(68) 670 03 94
+                                    </a>
+                                </li>
+                                <li class="contact__list">
+                                    <img src="./image/mail.svg" alt="#" class="contact__img">
+                                    <p class="contact__text">
+                                        kontakt@arbena.pl
+                                    </p>
+                                </li>
+                                <li class="contact__list">
+                                    <img src="./image/web.svg" alt="#" class="contact__img">
+                                    <a href="https://arbena.pl/" class="contact__text">
+                                        www.arbena.pl
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contact__item">
+                           <img src="./image/Logo.png" alt="#" class="contact__logo">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <ul class="footer__list">
+                    <li>© 2023 ARBENA</li>
+                    <li><a href="https://arblok.pl/klauzula-informacyjna/">Корисна інформація</a></li>
+                    <li><a href="https://arbena.pl/klauzula-informacyjna/">Політика конфіденційності</a></li>
+                </ul>
+            </div>
+        </footer>
+        <div id="popup" class="popup">
+            <a href="#header" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header" class="popup__close">&#215;</a>
+                    <div class="popup__title">
+                        Хочете дізнатися більше ?
+                    </div>
+                    <form class="form__bun" name="feedback" method="POST" action="#">
+                        <input type="text" name="name" placeholder="Ваше имя" required="required">
+                        <input type="email" name="email" placeholder="Email" required="required">
+                        <input type="number" name="number_tel" placeholder="Номер телефона" required="required">
+                        <textarea name="message" placeholder="Ваше питання"></textarea>
+                        <a href="#" class="popup__btn">&#128386; Замовити дзвінок</a>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
